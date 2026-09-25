@@ -215,6 +215,35 @@ body {
   font-size: 0.875rem;
 }
 
+/* Video Section */
+.video-section {
+  padding: 5rem 2rem;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-color);
+}
+
+.video-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.video-container {
+  position: relative;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background: var(--bg-accent);
+  box-shadow: 0 8px 32px rgba(0, 217, 255, 0.15);
+}
+
+.promo-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #000;
+}
+
 /* Features Section */
 .screenshots {
   padding: 5rem 2rem;
@@ -499,6 +528,10 @@ body {
   }
 
   .features {
+    padding: 3rem 1.5rem;
+  }
+
+  .video-section {
     padding: 3rem 1.5rem;
   }
 
