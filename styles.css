@@ -229,7 +229,7 @@ body {
 
 .media-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   gap: 2rem;
   margin-top: 3rem;
   align-items: start;
@@ -237,11 +237,12 @@ body {
 
 .media-video {
   position: relative;
+  max-width: 360px;
 }
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 177.78%;
   height: 0;
   overflow: hidden;
   border-radius: 1rem;
@@ -516,6 +517,10 @@ body {
   .media-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .media-video {
+    max-width: 100%;
   }
 
   .features {
